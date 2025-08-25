@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Result Generation Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-24T22:00:06" hostname="msmagiel" time="0.008">
+  <properties/>
+  <testcase name="Should return unknown result for empty accumulator" classname="com.controlup.processor.function.CpuUsageAggregatorTest$ResultGenerationTest" time="0.001"/>
+  <testcase name="Should calculate 95th percentile for multiple values" classname="com.controlup.processor.function.CpuUsageAggregatorTest$ResultGenerationTest" time="0.001"/>
+  <testcase name="Should calculate 95th percentile with edge values" classname="com.controlup.processor.function.CpuUsageAggregatorTest$ResultGenerationTest" time="0.001"/>
+  <testcase name="Should calculate 95th percentile for single value" classname="com.controlup.processor.function.CpuUsageAggregatorTest$ResultGenerationTest" time="0.001"/>
+  <system-out><![CDATA[DEBUG: getResult called for device: null, count: 0
+DEBUG: Empty accumulator, returning unknown result
+DEBUG: getResult called for device: device-001, count: 20
+DEBUG: Calculated 95th percentile: 99.75 for device: device-001
+DEBUG: getResult called for device: device-test, count: 5
+DEBUG: Calculated 95th percentile: 100.0 for device: device-test
+DEBUG: getResult called for device: device-001, count: 1
+DEBUG: Calculated 95th percentile: 75.5 for device: device-001
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

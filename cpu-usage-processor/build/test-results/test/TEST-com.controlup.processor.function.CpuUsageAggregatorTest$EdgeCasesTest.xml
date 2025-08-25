@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Edge Cases and Error Handling" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-08-24T22:00:06" hostname="msmagiel" time="0.059">
+  <properties/>
+  <testcase name="Should handle identical CPU usage values" classname="com.controlup.processor.function.CpuUsageAggregatorTest$EdgeCasesTest" time="0.04"/>
+  <testcase name="Should handle zero CPU usage values" classname="com.controlup.processor.function.CpuUsageAggregatorTest$EdgeCasesTest" time="0.003"/>
+  <testcase name="Should handle maximum CPU usage values" classname="com.controlup.processor.function.CpuUsageAggregatorTest$EdgeCasesTest" time="0.002"/>
+  <testcase name="Should handle large number of events" classname="com.controlup.processor.function.CpuUsageAggregatorTest$EdgeCasesTest" time="0.004"/>
+  <testcase name="Should handle events with same timestamp" classname="com.controlup.processor.function.CpuUsageAggregatorTest$EdgeCasesTest" time="0.002"/>
+  <system-out><![CDATA[DEBUG: getResult called for device: device-constant, count: 10
+DEBUG: Calculated 95th percentile: 42.5 for device: device-constant
+DEBUG: getResult called for device: device-001, count: 1
+DEBUG: Calculated 95th percentile: 0.0 for device: device-001
+DEBUG: getResult called for device: device-001, count: 1
+DEBUG: Calculated 95th percentile: 100.0 for device: device-001
+DEBUG: getResult called for device: device-large, count: 2000
+DEBUG: Calculated 95th percentile: 94.94999999999982 for device: device-large
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

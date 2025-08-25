@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Performance and Scalability Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-25T13:34:08" hostname="msmagiel" time="0.927">
+  <properties/>
+  <testcase name="Should maintain performance with service layer operations" classname="com.controlup.api.service.MetricsServiceIntegrationTest$PerformanceTests" time="0.898"/>
+  <testcase name="Should handle concurrent service requests efficiently" classname="com.controlup.api.service.MetricsServiceIntegrationTest$PerformanceTests" time="0.02"/>
+  <system-out><![CDATA[15:34:09.611 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: performance-test-device
+15:34:09.619 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 20 devices by percentile
+15:34:09.620 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 20 top devices by percentile
+15:34:09.708 [Thread-3] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-000
+15:34:09.708 [Thread-4] INFO com.controlup.api.service.MetricsService -- Retrieving top 5 devices by percentile
+15:34:09.709 [Thread-5] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-005
+15:34:09.709 [Thread-3] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-001
+15:34:09.709 [Thread-5] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-006
+15:34:09.709 [Thread-4] INFO com.controlup.api.service.MetricsService -- Retrieved 5 top devices by percentile
+15:34:09.709 [Thread-3] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-002
+15:34:09.709 [Thread-5] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-007
+15:34:09.709 [Thread-4] INFO com.controlup.api.service.MetricsService -- Retrieving top 5 devices by percentile
+15:34:09.710 [Thread-3] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-003
+15:34:09.710 [Thread-5] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-008
+15:34:09.710 [Thread-4] INFO com.controlup.api.service.MetricsService -- Retrieved 5 top devices by percentile
+15:34:09.710 [Thread-4] INFO com.controlup.api.service.MetricsService -- Retrieving top 5 devices by percentile
+15:34:09.710 [Thread-3] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-004
+15:34:09.710 [Thread-4] INFO com.controlup.api.service.MetricsService -- Retrieved 5 top devices by percentile
+15:34:09.710 [Thread-5] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: workstation-medium-009
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/msmagiel/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

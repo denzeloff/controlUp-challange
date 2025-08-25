@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Get Top Devices By Percentile Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-25T13:34:09" hostname="msmagiel" time="0.032">
+  <properties/>
+  <testcase name="Should return empty list when no data exists" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetTopDevicesByPercentileTests" time="0.006"/>
+  <testcase name="Should handle business rules for time-based queries" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetTopDevicesByPercentileTests" time="0.009"/>
+  <testcase name="Should handle various N values appropriately" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetTopDevicesByPercentileTests" time="0.009"/>
+  <testcase name="Should return correctly ordered devices" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetTopDevicesByPercentileTests" time="0.005"/>
+  <system-out><![CDATA[15:34:09.784 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 5 devices by percentile
+15:34:09.784 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 0 top devices by percentile
+15:34:09.791 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 10 devices by percentile
+15:34:09.791 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 3 top devices by percentile
+15:34:09.801 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 3 devices by percentile
+15:34:09.802 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 3 top devices by percentile
+15:34:09.802 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 10 devices by percentile
+15:34:09.802 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 10 top devices by percentile
+15:34:09.802 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 20 devices by percentile
+15:34:09.803 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 10 top devices by percentile
+15:34:09.810 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving top 3 devices by percentile
+15:34:09.811 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieved 3 top devices by percentile
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

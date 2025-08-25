@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Aggregator Function Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-24T22:00:06" hostname="msmagiel" time="0.009">
+  <properties/>
+  <testcase name="Should add single event to accumulator" classname="com.controlup.processor.function.CpuUsageAggregatorTest$AggregatorFunctionTest" time="0.001"/>
+  <testcase name="Should update window boundaries correctly" classname="com.controlup.processor.function.CpuUsageAggregatorTest$AggregatorFunctionTest" time="0.002"/>
+  <testcase name="Should add multiple events to accumulator" classname="com.controlup.processor.function.CpuUsageAggregatorTest$AggregatorFunctionTest" time="0.002"/>
+  <testcase name="Should create new accumulator" classname="com.controlup.processor.function.CpuUsageAggregatorTest$AggregatorFunctionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

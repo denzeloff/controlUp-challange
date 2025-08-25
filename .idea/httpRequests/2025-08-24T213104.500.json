@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "message": "An unexpected error occurred",
+  "timestamp": "2025-08-24T19:31:04.746656554Z",
+  "path": "/api/metrics/devices/device-010"
+}

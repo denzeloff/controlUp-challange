@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/

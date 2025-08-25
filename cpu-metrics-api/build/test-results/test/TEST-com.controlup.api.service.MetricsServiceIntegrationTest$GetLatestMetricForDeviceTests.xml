@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Get Latest Metric For Device Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-25T13:34:09" hostname="msmagiel" time="0.018">
+  <properties/>
+  <testcase name="Should return metric when device exists" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetLatestMetricForDeviceTests" time="0.003"/>
+  <testcase name="Should handle service layer business logic correctly" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetLatestMetricForDeviceTests" time="0.007"/>
+  <testcase name="Should validate device ID format and constraints" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetLatestMetricForDeviceTests" time="0.002"/>
+  <testcase name="Should return null when device not found" classname="com.controlup.api.service.MetricsServiceIntegrationTest$GetLatestMetricForDeviceTests" time="0.003"/>
+  <system-out><![CDATA[15:34:09.819 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: service-device-001
+15:34:09.826 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: server-low-000
+15:34:09.826 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: server-high-000
+15:34:09.826 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: server-critical-000
+15:34:09.826 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: non-existent
+15:34:09.827 [Test worker] WARN com.controlup.api.service.MetricsService -- No metrics found for device: non-existent
+15:34:09.830 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: complex-device_id.with@special-chars123
+15:34:09.833 [Test worker] INFO com.controlup.api.service.MetricsService -- Retrieving latest metric for device: non-existent-device
+15:34:09.834 [Test worker] WARN com.controlup.api.service.MetricsService -- No metrics found for device: non-existent-device
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

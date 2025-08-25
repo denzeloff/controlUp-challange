@@ -1,0 +1,16 @@
+?DEBUG: getResult called for device: device-constant, count: 10
+DDEBUG: Calculated 95th percentile: 42.5 for device: device-constant
+9DEBUG: getResult called for device: device-001, count: 1
+>DEBUG: Calculated 95th percentile: 0.0 for device: device-001
+9DEBUG: getResult called for device: device-001, count: 1
+@DEBUG: Calculated 95th percentile: 100.0 for device: device-001
+>DEBUG: getResult called for device: device-large, count: 2000
+NDEBUG: Calculated 95th percentile: 94.94999999999982 for device: device-large
+3DEBUG: getResult called for device: null, count: 0
+3DEBUG: Empty accumulator, returning unknown result
+:DEBUG: getResult called for device: device-001, count: 20
+@DEBUG: Calculated 95th percentile: 99.75 for device: device-001
+:DEBUG: getResult called for device: device-test, count: 5
+ADEBUG: Calculated 95th percentile: 100.0 for device: device-test
+9DEBUG: getResult called for device: device-001, count: 1
+?DEBUG: Calculated 95th percentile: 75.5 for device: device-001

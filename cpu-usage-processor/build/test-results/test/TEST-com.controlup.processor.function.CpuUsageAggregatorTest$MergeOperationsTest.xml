@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Merge Operations Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-24T22:00:06" hostname="msmagiel" time="0.008">
+  <properties/>
+  <testcase name="Should return first accumulator when second is empty" classname="com.controlup.processor.function.CpuUsageAggregatorTest$MergeOperationsTest" time="0.002"/>
+  <testcase name="Should return second accumulator when first is empty" classname="com.controlup.processor.function.CpuUsageAggregatorTest$MergeOperationsTest" time="0.001"/>
+  <testcase name="Should handle window boundaries correctly when merging" classname="com.controlup.processor.function.CpuUsageAggregatorTest$MergeOperationsTest" time="0.001"/>
+  <testcase name="Should merge two non-empty accumulators" classname="com.controlup.processor.function.CpuUsageAggregatorTest$MergeOperationsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
